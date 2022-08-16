@@ -10,7 +10,7 @@
 * {
     box-sizing: border-box;
     font-family: Montserrat,sans-serif;
-    color: rgb(115, 101, 101);
+    color: rgb(15, 6, 6);
 }
 
 body {
@@ -19,19 +19,20 @@ body {
 } 
 
 main {
-    background-color: white;
+    background-color: rgb(255, 253, 253);
     width: 100%; 
     height: 100%;
     margin-bottom: 50px; 
 }
 
 aside {
-    background-color: #c1bcbc;
+    background-color: #c4b9b9;
     width: 35%;
-    padding: 30px 40px;
-    margin-bottom: 40px;
-    margin-left: 40px;
+    padding: 40px 40px ;
+    margin-bottom: 20px;
+    margin-left: 55px;
     margin-top: 40px;
+    
 }
 
 .heading {
@@ -41,11 +42,12 @@ aside {
     align-items: center;
     align-content: center;
     margin-bottom: 50px;
-    margin-top: 50px;
+    margin-top: 60px;
 }
 
 .heading-hide {
     display: none;
+    
 }
 
 section {
@@ -56,20 +58,20 @@ section {
 
 
 h1 {
-    font-size: 30px;
+    font-size: 45px;
     margin-bottom: 0px;
 }
 
 h2 {
-    font-size: 18px;
+    font-size: 20px;
     padding: 10px;
     margin-bottom: 20px;
     background-color: #c2b9b9;
 }
 
 h3 {
-    font-size: 16px;
-    color: rgb(86, 75, 75);
+    font-size: 19px;
+    color: rgb(108, 101, 101);
 }
 
 .h4 {
@@ -91,7 +93,7 @@ p {
     font-size: 16px;
     margin-top: 1px;
     margin-bottom: 0px; 
-    line-height: 1.5;
+    line-height: 1.8;
 }
 
 .pagenavigation {
@@ -120,11 +122,11 @@ p {
 
 a:link, a:visited {
     text-decoration: none;
-    color: grey;
+    color: rgb(57, 48, 48);
 }
 
 a:hover {
-    color: #232323;
+    color: #3a2dcf;
     text-decoration: underline;
 }
 
@@ -133,13 +135,13 @@ a:hover {
 }
 
 a {
-    line-height: 1.5;
-    font-size: 14px;
+    line-height: 1.8;
+    font-size: 15px;
 }
 
 li {
     line-height: 1.5;
-    font-size: 13px;
+    font-size: 14px;
 }
 
 .profile-img img {
@@ -163,6 +165,8 @@ li {
     align-content: center;
     align-items: center;  
 }
+
+
 
 
 @media only screen and (max-width: 1150px) {
@@ -272,7 +276,8 @@ li {
         align-items: center;
         position: relative;
         left: 0px;
-        top: 20px; 
+        top: 20px;
+        
     }
 
     h1 {
@@ -283,14 +288,18 @@ li {
     .heading-hide {
         justify-content: center;
         align-items: center;
+        
     }
 
     .hide {
-        display: none
+        display: none;
+       
+        
     }
 
     .fa {
         margin-left: 10px;
+        
     }
 }
 
