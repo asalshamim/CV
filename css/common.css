@@ -1,0 +1,305 @@
+:root {
+    --color1: rgb(118, 116, 116);
+    --color2: rgb(115, 101, 101);
+    --color3: #e0dbdb;
+    --color4: #3c3c3c;
+    --color5: #232323;
+}
+
+
+* {
+    box-sizing: border-box;
+    font-family: Montserrat,sans-serif;
+    color: rgb(115, 101, 101);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+} 
+
+main {
+    background-color: white;
+    width: 100%; 
+    height: 100%;
+    margin-bottom: 50px; 
+}
+
+aside {
+    background-color: #c1bcbc;
+    width: 35%;
+    padding: 30px 40px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.heading-hide {
+    display: none;
+}
+
+section {
+    width: 85%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    font-size: 18px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #c2b9b9;
+}
+
+h3 {
+    font-size: 16px;
+    color: rgb(86, 75, 75);
+}
+
+.h4 {
+    display: flex;
+    margin-top: 5;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 500;
+    color: grey;
+    line-height: 2; 
+}
+
+
+#text {
+    margin-bottom: 30px;
+}
+
+p {
+    font-size: 16px;
+    margin-top: 1px;
+    margin-bottom: 0px; 
+    line-height: 1.5;
+}
+
+.pagenavigation {
+    display: inline-block;
+    background-color: #e0dbdb;
+    color: #3c3c3c;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.fa {
+    color: #3c3c3c;
+    width: 1.5em;   
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.education-container, .job-container {
+    margin-top: 50px;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: grey;
+}
+
+a:hover {
+    color: #232323;
+    text-decoration: underline;
+}
+
+.my-links a:link {
+    text-decoration: underline;
+}
+
+a {
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+li {
+    line-height: 1.5;
+    font-size: 13px;
+}
+
+.profile-img img {
+    width: 150px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    border-radius: 25px 25px 55px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;  
+}
+
+
+@media only screen and (max-width: 1150px) {
+
+    aside {
+        min-width: 30%; 
+    }  
+
+    .h4 {
+        font-size: 13px;
+    }
+
+    section {
+        width: 80%;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+}
+    
+@media only screen and (max-width: 800px) {
+
+    .box { 
+        display: flex;
+    }
+
+    #info-container { 
+        display: none;
+    }
+
+    aside {
+        width: 100%;
+        margin: 0px;
+        height: 270px;
+    }
+
+    .links-contact {
+        display: block;
+        position: absolute;
+        left: 205px;
+        top: 150px;
+    }
+
+    .heading {
+        display: none;
+    }
+
+  
+    .heading-hide {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-end;
+        align-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .profile-img img {
+        width: 150px;
+        padding: 0px;
+    }
+
+    li {
+        font-size: 11px;
+    }
+    
+    p, a {
+        font-size: 13px;
+    }
+
+    h2 {
+        font-size: 14px;
+    }
+
+    h3 {
+        font-size: 12px;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    aside {
+        height: 280px;
+    }
+    .box {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column
+    }
+
+    .profile-img img {
+        width: 110px;
+    }
+
+    .links-contact {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        left: 0px;
+        top: 20px; 
+    }
+
+    h1 {
+        margin-top: 10px;
+        font-size: 24px;
+    }
+
+    .heading-hide {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hide {
+        display: none
+    }
+
+    .fa {
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    a {
+        font-size: 10px;
+    }
+
+}
+
+
