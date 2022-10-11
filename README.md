@@ -1,5 +1,5 @@
 # CV
 
-### [Preview](https://cv-chi-cyan.vercel.app/)
+### [Preview](https://asalshamim.vercel.app/)
 
 
